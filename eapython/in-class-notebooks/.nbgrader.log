@@ -1,0 +1,773 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | DEBUG] Searching ['/Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks', '/Users/robynmarowitz/.jupyter', '/Users/robynmarowitz/.local/etc/jupyter', '/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[NotebookApp | DEBUG] Looking for jupyter_config in /etc/jupyter
+[NotebookApp | DEBUG] Looking for jupyter_config in /usr/local/etc/jupyter
+[NotebookApp | DEBUG] Looking for jupyter_config in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter
+[NotebookApp | DEBUG] Looking for jupyter_config in /Users/robynmarowitz/.local/etc/jupyter
+[NotebookApp | DEBUG] Looking for jupyter_config in /Users/robynmarowitz/.jupyter
+[NotebookApp | DEBUG] Looking for jupyter_config in /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks
+[NotebookApp | DEBUG] Looking for nbgrader_config in /etc/jupyter
+[NotebookApp | DEBUG] Looking for nbgrader_config in /usr/local/etc/jupyter
+[NotebookApp | DEBUG] Looking for nbgrader_config in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter
+[NotebookApp | DEBUG] Looking for nbgrader_config in /Users/robynmarowitz/.local/etc/jupyter
+[NotebookApp | DEBUG] Looking for nbgrader_config in /Users/robynmarowitz/.jupyter
+[NotebookApp | DEBUG] Looking for nbgrader_config in /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks
+[NotebookApp | DEBUG] Looking for nbgrader_config in /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks
+[NotebookApp | WARNING] Config option `template_path` not recognized by `HTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks
+[NotebookApp | INFO] Jupyter Notebook 6.4.12 is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=3a7b9f7bc247f0136e1d21daf420e337a567c02423425f4b
+[NotebookApp | INFO]  or http://127.0.0.1:8888/?token=3a7b9f7bc247f0136e1d21daf420e337a567c02423425f4b
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/robynmarowitz/Library/Jupyter/runtime/nbserver-69647-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=3a7b9f7bc247f0136e1d21daf420e337a567c02423425f4b
+     or http://127.0.0.1:8888/?token=3a7b9f7bc247f0136e1d21daf420e337a567c02423425f4b
+[NotebookApp | DEBUG] Accepting token-authenticated connection from ::1
+[NotebookApp | DEBUG] Using contents: services/contents
+[NotebookApp | DEBUG] Path base/images/favicon.ico served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/images/favicon.ico
+[NotebookApp | DEBUG] Path components/jquery-ui/themes/smoothness/jquery-ui.min.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css
+[NotebookApp | DEBUG] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[NotebookApp | DEBUG] Path style/style.min.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/style/style.min.css
+[NotebookApp | DEBUG] Path components/es6-promise/promise.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/es6-promise/promise.min.js
+[NotebookApp | DEBUG] Path components/react/react.production.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/react/react.production.min.js
+[NotebookApp | DEBUG] Path components/react/react-dom.production.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/react/react-dom.production.min.js
+[NotebookApp | DEBUG] Path components/create-react-class/index.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/create-react-class/index.js
+[NotebookApp | DEBUG] Path components/requirejs/require.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/requirejs/require.js
+[NotebookApp | DEBUG] Path base/images/logo.png served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/images/logo.png
+[NotebookApp | DEBUG] Path tree/js/main.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/tree/js/main.min.js
+[NotebookApp | DEBUG] 200 GET /tree?token=3a7b9f7bc247f0136e1d21daf420e337a567c02423425f4b (::1) 59.500000ms
+[NotebookApp | DEBUG] Path custom.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/custom/custom.css
+[NotebookApp | DEBUG] 304 GET /custom/custom.css (::1) 1.250000ms
+[NotebookApp | DEBUG] 200 GET /static/tree/js/main.min.js?v=785bec970ee29382b69668ee56a481d3053a5003c89181657edfe12e3426f1c772742d33cb134129f5a57124a4672e3a5a918964b37d98474907bc6d9d761a21 (::1) 3.410000ms
+[NotebookApp | DEBUG] Path services/contents.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/services/contents.js
+[NotebookApp | DEBUG] 200 GET /static/services/contents.js?v=20230414141803 (::1) 7.980000ms
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] 200 GET /api/config/tree?_=1681503485457 (::1) 5.170000ms
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] 200 GET /api/config/common?_=1681503485458 (::1) 3.620000ms
+[NotebookApp | DEBUG] 200 GET /api/terminals?_=1681503485459 (::1) 2.690000ms
+[NotebookApp | DEBUG] Found kernel python3 in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/kernels
+[NotebookApp | DEBUG] 304 GET /api/kernelspecs (::1) 106.310000ms
+[NotebookApp | DEBUG] 200 GET /api/sessions?_=1681503485460 (::1) 109.140000ms
+[NotebookApp | DEBUG] 200 GET /api/terminals?_=1681503485461 (::1) 108.880000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/tree_tab/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/tree_tab/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20230414141803 (::1) 2.290000ms
+[NotebookApp | DEBUG] Path formgrader/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/formgrader/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/formgrader/main.js?v=20230414141803 (::1) 2.370000ms
+[NotebookApp | DEBUG] Path custom.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/custom/custom.js
+[NotebookApp | DEBUG] 200 GET /custom/custom.js?v=20230414141803 (::1) 2.670000ms
+[NotebookApp | DEBUG] Path assignment_list/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/assignment_list/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/assignment_list/main.js?v=20230414141803 (::1) 2.890000ms
+[NotebookApp | DEBUG] 200 GET /api/contents?type=directory&_=1681503485462 (::1) 2.490000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/main.js?v=20230414141803 (::1) 1.220000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/render/render.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/render/render.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/render/render.js?v=20230414141803 (::1) 1.670000ms
+[NotebookApp | DEBUG] Path assignment_list/assignment_list.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/assignment_list/assignment_list.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/assignment_list/assignment_list.js?v=20230414141803 (::1) 0.870000ms
+[NotebookApp | DEBUG] Path base/js/security.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/js/security.js
+[NotebookApp | DEBUG] 200 GET /static/base/js/security.js?v=20230414141803 (::1) 1.420000ms
+[NotebookApp | DEBUG] Path notebook/js/mathjaxutils.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/js/mathjaxutils.js
+[NotebookApp | DEBUG] 200 GET /static/notebook/js/mathjaxutils.js?v=20230414141803 (::1) 1.090000ms
+[NotebookApp | DEBUG] Path components/codemirror/addon/runmode/runmode.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/addon/runmode/runmode.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/addon/runmode/runmode.js?v=20230414141803 (::1) 1.960000ms
+[NotebookApp | DEBUG] Path components/codemirror/mode/gfm/gfm.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/mode/gfm/gfm.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/mode/gfm/gfm.js?v=20230414141803 (::1) 2.300000ms
+[NotebookApp | DEBUG] Path notebook/js/codemirror-ipython.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/js/codemirror-ipython.js
+[NotebookApp | DEBUG] 200 GET /static/notebook/js/codemirror-ipython.js?v=20230414141803 (::1) 1.300000ms
+[NotebookApp | DEBUG] Path notebook/js/codemirror-ipythongfm.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/js/codemirror-ipythongfm.js
+[NotebookApp | DEBUG] 200 GET /static/notebook/js/codemirror-ipythongfm.js?v=20230414141803 (::1) 1.570000ms
+[NotebookApp | DEBUG] Path assignment_list/assignment_list.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/assignment_list/assignment_list.css
+[NotebookApp | DEBUG] 304 GET /nbextensions/assignment_list/assignment_list.css (::1) 1.690000ms
+[NotebookApp | DEBUG] 200 GET /nbgrader_version?version=0.5.5&_=1681503485463 (::1) 0.520000ms
+[NotebookApp | DEBUG] Path notebook/js/quickhelp.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/js/quickhelp.js
+[NotebookApp | DEBUG] 200 GET /static/notebook/js/quickhelp.js?v=20230414141803 (::1) 1.510000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/kse_components.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/kse_components.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/kse_components.js?v=20230414141803 (::1) 1.000000ms
+[NotebookApp | DEBUG] Path components/sanitizer/index.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/sanitizer/index.js
+[NotebookApp | DEBUG] 200 GET /static/components/sanitizer/index.js?v=20230414141803 (::1) 2.440000ms
+[NotebookApp | DEBUG] Path base/js/mathjaxutils.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/js/mathjaxutils.js
+[NotebookApp | DEBUG] 200 GET /static/base/js/mathjaxutils.js?v=20230414141803 (::1) 2.210000ms
+[NotebookApp | DEBUG] Path components/jquery-ui/jquery-ui.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/jquery-ui/jquery-ui.min.js
+[NotebookApp | DEBUG] 200 GET /static/components/jquery-ui/jquery-ui.min.js?v=20230414141803 (::1) 3.010000ms
+[NotebookApp | DEBUG] Path components/codemirror/mode/python/python.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/mode/python/python.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/mode/python/python.js?v=20230414141803 (::1) 1.830000ms
+[NotebookApp | DEBUG] Path components/codemirror/mode/markdown/markdown.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/mode/markdown/markdown.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/mode/markdown/markdown.js?v=20230414141803 (::1) 2.400000ms
+[NotebookApp | DEBUG] Path components/codemirror/addon/mode/overlay.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/addon/mode/overlay.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/addon/mode/overlay.js?v=20230414141803 (::1) 1.040000ms
+[NotebookApp | DEBUG] Path components/codemirror/addon/mode/multiplex.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/addon/mode/multiplex.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/addon/mode/multiplex.js?v=20230414141803 (::1) 1.700000ms
+[NotebookApp | DEBUG] Path components/codemirror/mode/stex/stex.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/mode/stex/stex.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/mode/stex/stex.js?v=20230414141803 (::1) 2.890000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/quickhelp_shim.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/quickhelp_shim.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/quickhelp_shim.js?v=20230414141803 (::1) 1.530000ms
+[NotebookApp | DEBUG] Path components/codemirror/mode/xml/xml.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/mode/xml/xml.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/mode/xml/xml.js?v=20230414141803 (::1) 4.330000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/main.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/main.css
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/main.css?v=20230414141803 (::1) 1.200000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/render/rendermd.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/render/rendermd.css
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/render/rendermd.css?v=20230414141803 (::1) 0.820000ms
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] 200 GET /api/config/notebook?_=1681503485464 (::1) 4.020000ms
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] 200 GET /api/config/notebook?_=1681503485465 (::1) 1.910000ms
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] 200 GET /api/config/edit?_=1681503485466 (::1) 2.220000ms
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/usr/local/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] Paths used for configuration of edit: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/edit.json
+[NotebookApp | DEBUG] 200 GET /api/config/edit?_=1681503485467 (::1) 2.900000ms
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] 200 GET /api/config/tree?_=1681503485468 (::1) 4.210000ms
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] Paths used for configuration of tree: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/tree.json
+[NotebookApp | DEBUG] 200 GET /api/config/tree?_=1681503485469 (::1) 5.090000ms
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] 200 GET /api/config/common?_=1681503485470 (::1) 1.730000ms
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] 200 GET /api/config/common?_=1681503485471 (::1) 1.460000ms
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /Users/robynmarowitz/Library/Jupyter/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /Users/robynmarowitz/.local/share/jupyter/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Rubberband' in rubberband/rubberband.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'ScrollDown' in scroll_down/config.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Hinterland' in hinterland/hinterland.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Snippets' in snippets/snippets.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Toggle all line numbers' in toggle_all_line_numbers/main.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Notify' in notify/notify.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Runtools' in runtools/runtools.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Tree Filter' in tree-filter/tree-filter.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'table_beautifier' in table_beautifier/table_beautifier.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Freeze' in freeze/config.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Exercise2' in exercise2/exercise2.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Execution Dependencies' in execution_dependencies/execution_dependencies.yml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'SKILL Syntax' in skill/skill.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Split Cells Notebook' in splitcell/splitcell.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'AutoSaveTime' in autosavetime/autosavetime.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Select CodeMirror Keymap' in select_keymap/select_keymap.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Live Markdown Preview' in livemdpreview/livemdpreview.yml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Gist-it' in gist_it/gist_it.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Cell Filter' in cell_filter/cell_filter.yml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Scratchpad' in scratchpad/scratchpad.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Table of Contents (2)' in toc2/toc2.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'nbTranslate' in nbTranslate/nbTranslate.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Equation Auto Numbering' in equation-numbering/info.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Navigation-Hotkeys' in navigation-hotkeys/hotkeys.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Snippets Menu' in snippets_menu/config.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Printview' in printview/printview.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Export Embedded HTML' in export_embedded/export_embedded.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Autoscroll' in autoscroll/autoscroll.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Hide input' in hide_input/hide-input.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Hide input all' in hide_input_all/hide_input_all.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Keyboard shortcut editor' in keyboard_shortcut_editor/keyboard_shortcut_editor.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Help panel' in help_panel/help_panel.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Move selected cells' in move_selected_cells/move_selected_cells.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'zenmode' in zenmode/zenmode.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Skip-Traceback' in skip-traceback/skip-traceback.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Python Markdown' in python-markdown/python-markdown.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Codefolding in Editor' in codefolding/codefolding_editor.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Codefolding' in codefolding/codefolding.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Collapsible Headings' in collapsible_headings/collapsible_headings.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Exercise' in exercise/exercise.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'CodeMirror mode extensions' in codemirror_mode_extensions/codemirror_mode_extensions.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Ruler in Editor' in ruler/ruler_editor.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Ruler' in ruler/ruler.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Highlight selected word' in highlight_selected_word/configurator.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'contrib_nbextensions_help_item' in contrib_nbextensions_help_item/contrib_nbextensions_help_item.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'datestamper' in datestamper/main.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Initialization cells' in init_cell/init_cell.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Limit Output' in limit_output/limit-output.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Launch QTConsole' in qtconsole/qtconsole.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'AddBefore' in addbefore/addbefore.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'highlighter' in highlighter/highlighter.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Comment/Uncomment Hotkey' in comment-uncomment/comment-uncomment.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Code Font Size' in code_font_size/code_font_size.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Variable Inspector' in varInspector/varInspector.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension '(some) LaTeX environments for Jupyter' in latex_envs/latex_envs.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'ExecuteTime' in execute_time/ExecuteTime.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'spellchecker' in spellchecker/config.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension '2to3 Converter' in code_prettify/2to3.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Code prettify' in code_prettify/code_prettify.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Autopep8' in code_prettify/autopep8.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'isort formatter' in code_prettify/isort.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Load TeX macros' in load_tex_macros/load_tex_macros.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Hide Header' in hide_header/hide_header.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /usr/local/share/jupyter/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /usr/share/jupyter/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /Users/robynmarowitz/.ipython/nbextensions
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Looking for nbextension yaml descriptor files in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Nbextensions edit menu item' in nbextensions_configurator/config_menu/config_menu.yaml
+[NotebookApp | DEBUG] [jupyter_nbextensions_configurator] Found nbextension 'Nbextensions dashboard tab' in nbextensions_configurator/tree_tab/tree_tab.yaml
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/list?_=1681503485472 (::1) 28.800000ms
+[NotebookApp | DEBUG] Path zenmode/README.md served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/zenmode/README.md
+[NotebookApp | DEBUG] 304 GET /nbextensions/zenmode/README.md (::1) 0.650000ms
+[NotebookApp | DEBUG] Using contents: services/contents
+[NotebookApp | DEBUG] Path base/images/favicon-notebook.ico served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/images/favicon-notebook.ico
+[NotebookApp | DEBUG] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[NotebookApp | DEBUG] Path components/codemirror/lib/codemirror.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/lib/codemirror.css
+[NotebookApp | DEBUG] Path notebook/css/override.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/css/override.css
+[NotebookApp | WARNING] Config option `template_path` not recognized by `ExporterCollapsibleHeadings`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | WARNING] Config option `template_path` not recognized by `ExporterCollapsibleHeadings`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | WARNING] Config option `template_path` not recognized by `TocExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `TocExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `ExporterCollapsibleHeadings`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | WARNING] Config option `template_path` not recognized by `ExporterCollapsibleHeadings`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | WARNING] Config option `template_path` not recognized by `TocExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `TocExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | WARNING] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[NotebookApp | DEBUG] Path components/text-encoding/lib/encoding.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/text-encoding/lib/encoding.js
+[NotebookApp | DEBUG] Path notebook/js/main.min.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/notebook/js/main.min.js
+[NotebookApp | DEBUG] 200 GET /notebooks/07-open-hdf4-python-blank-filled.ipynb (::1) 612.770000ms
+[NotebookApp | DEBUG] 304 GET /custom/custom.css (::1) 1.090000ms
+[NotebookApp | DEBUG] Path components/MathJax/MathJax.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/MathJax.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (::1) 1.300000ms
+[NotebookApp | DEBUG] 200 GET /static/components/text-encoding/lib/encoding.js?v=737ac6f9f978afb6348b5914877e7d7136de7465cd4cdf389bad9a6b3ad5ceffbfb23febc75c23378967d7d36f98f5388208e8eb78c80f2bf47e8f8c000481ad (::1) 0.730000ms
+[NotebookApp | DEBUG] 200 GET /static/notebook/js/main.min.js?v=a4e125c812cb3975203ae429a5b40d180b59b8e4602fcc78390ef4f0dd4d14ac3559189f65f23cd50fd971f98f5842b7746f4182babd20b7ca84e52314bcd4ac (::1) 3.860000ms
+[NotebookApp | DEBUG] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[NotebookApp | DEBUG] 200 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (::1) 1.970000ms
+[NotebookApp | DEBUG] Path components/MathJax/config/Safe.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/config/Safe.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (::1) 1.170000ms
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/nbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] Paths used for configuration of notebook: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/notebook.json
+[NotebookApp | DEBUG] 200 GET /api/config/notebook?_=1681503488521 (::1) 6.820000ms
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.local/etc/jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] Paths used for configuration of common: 
+    	/Users/robynmarowitz/.jupyter/nbconfig/common.json
+[NotebookApp | DEBUG] 200 GET /api/config/common?_=1681503488522 (::1) 3.790000ms
+[NotebookApp | DEBUG] Path components/MathJax/extensions/TeX/begingroup.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/TeX/begingroup.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (::1) 1.410000ms
+[NotebookApp | DEBUG] Path components/MathJax/extensions/TeX/newcommand.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/TeX/newcommand.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (::1) 1.390000ms
+[NotebookApp | DEBUG] Path components/MathJax/extensions/MathML/content-mathml.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/MathML/content-mathml.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (::1) 1.460000ms
+[NotebookApp | DEBUG] Found kernel python3 in /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/kernels
+[NotebookApp | DEBUG] 304 GET /api/kernelspecs (::1) 2.190000ms
+[NotebookApp | WARNING] Notebook 07-open-hdf4-python-blank-filled.ipynb is not trusted
+[NotebookApp | DEBUG] 200 GET /api/contents/07-open-hdf4-python-blank-filled.ipynb?type=notebook&_=1681503488523 (::1) 51.270000ms
+[NotebookApp | DEBUG] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (::1) 2.530000ms
+[NotebookApp | DEBUG] 304 GET /custom/custom.js?v=20230414141803 (::1) 2.370000ms
+[NotebookApp | DEBUG] Path components/MathJax/extensions/Safe.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/MathJax/extensions/Safe.js
+[NotebookApp | DEBUG] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (::1) 2.310000ms
+[NotebookApp | DEBUG] Path jupyterlab-plotly/extension.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/jupyterlab-plotly/extension.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/jupyterlab-plotly/extension.js?v=20230414141803 (::1) 3.430000ms
+[NotebookApp | DEBUG] Path nbresuse/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/nbresuse/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbresuse/main.js?v=20230414141803 (::1) 4.110000ms
+[NotebookApp | DEBUG] Path validate_assignment/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/validate_assignment/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/validate_assignment/main.js?v=20230414141803 (::1) 2.250000ms
+[NotebookApp | DEBUG] Path jupyter-js-widgets/extension.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/jupyter-js-widgets/extension.js?v=20230414141803 (::1) 4.150000ms
+[NotebookApp | DEBUG] Path create_assignment/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/create_assignment/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/create_assignment/main.js?v=20230414141803 (::1) 4.680000ms
+[NotebookApp | DEBUG] Path nbextensions_configurator/config_menu/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/jupyter_nbextensions_configurator/static/nbextensions_configurator/config_menu/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20230414141803 (::1) 5.310000ms
+[NotebookApp | DEBUG] Path contrib_nbextensions_help_item/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/contrib_nbextensions_help_item/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/contrib_nbextensions_help_item/main.js?v=20230414141803 (::1) 5.870000ms
+[NotebookApp | DEBUG] Path code_prettify/autopep8.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/code_prettify/autopep8.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/code_prettify/autopep8.js?v=20230414141803 (::1) 6.010000ms
+[NotebookApp | DEBUG] Path ruler/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/ruler/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/ruler/main.js?v=20230414141803 (::1) 3.170000ms
+[NotebookApp | DEBUG] Path spellchecker/main.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/spellchecker/main.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/spellchecker/main.js?v=20230414141803 (::1) 3.410000ms
+[NotebookApp | DEBUG] 200 GET /api/contents/07-open-hdf4-python-blank-filled.ipynb/checkpoints?_=1681503488524 (::1) 2.290000ms
+[NotebookApp | DEBUG] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[NotebookApp | DEBUG] Starting kernel: ['/Users/robynmarowitz/miniconda3/envs/earth-analytics-python/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/robynmarowitz/Library/Jupyter/runtime/kernel-325b6497-2402-48a4-8a82-cd6605f5697b.json']
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65366
+[NotebookApp | INFO] Kernel started: 325b6497-2402-48a4-8a82-cd6605f5697b, name: python3
+[NotebookApp | DEBUG] Kernel args: {'kernel_name': 'python3', 'cwd': '/Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks'}
+[NotebookApp | DEBUG] 201 POST /api/sessions (::1) 66.120000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 5.490000ms
+[NotebookApp | DEBUG] Path code_prettify/kernel_exec_on_cell.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/code_prettify/kernel_exec_on_cell.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/code_prettify/kernel_exec_on_cell.js?v=20230414141803 (::1) 1.460000ms
+[NotebookApp | DEBUG] Path components/codemirror/addon/display/rulers.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/components/codemirror/addon/display/rulers.js
+[NotebookApp | DEBUG] 200 GET /static/components/codemirror/addon/display/rulers.js?v=20230414141803 (::1) 1.240000ms
+[NotebookApp | DEBUG] Path create_assignment/create_assignment.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/create_assignment/create_assignment.css
+[NotebookApp | DEBUG] 200 GET /nbextensions/create_assignment/create_assignment.css?v=20230414141803 (::1) 1.120000ms
+[NotebookApp | DEBUG] Path spellchecker/typo/typo.js served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/spellchecker/typo/typo.js
+[NotebookApp | DEBUG] 200 GET /nbextensions/spellchecker/typo/typo.js?v=20230414141803 (::1) 1.290000ms
+[NotebookApp | DEBUG] Initializing websocket connection /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] Requesting kernel info from 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Path spellchecker/main.css served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/share/jupyter/nbextensions/spellchecker/main.css
+[NotebookApp | DEBUG] 200 GET /nbextensions/spellchecker/main.css?v=20230414141803 (::1) 0.850000ms
+[NotebookApp | DEBUG] Received kernel info: {'status': 'ok', 'protocol_version': '5.3', 'implementation': 'ipython', 'implementation_version': '8.5.0', 'language_info': {'name': 'python', 'version': '3.8.13', 'mimetype': 'text/x-python', 'codemirror_mode': {'name': 'ipython', 'version': 3}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py'}, 'banner': "Python 3.8.13 | packaged by conda-forge | (default, Mar 25 2022, 06:04:14) \nType 'copyright', 'credits' or 'license' for more information\nIPython 8.5.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'help_links': [{'text': 'Python Reference', 'url': 'https://docs.python.org/3.8'}, {'text': 'IPython Reference', 'url': 'https://ipython.org/documentation.html'}, {'text': 'NumPy Reference', 'url': 'https://docs.scipy.org/doc/numpy/reference/'}, {'text': 'SciPy Reference', 'url': 'https://docs.scipy.org/doc/scipy/reference/'}, {'text': 'Matplotlib Reference', 'url': 'https://matplotlib.org/contents.html'}, {'text': 'SymPy Reference', 'url': 'http://docs.sympy.org/latest/index.html'}, {'text': 'pandas Reference', 'url': 'https://pandas.pydata.org/pandas-docs/stable/'}]}
+[NotebookApp | DEBUG] 101 GET /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels?session_id=edd9e4f43e0c4bb98d40e4e1be89cfc5 (::1) 503.430000ms
+[NotebookApp | DEBUG] Opening websocket /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] Getting buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65366
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65367
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Nudge: attempt 1 on kernel 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: IOPub received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving iopub future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: shell info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving shell future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 11.250000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 20.180000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.410000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 18.960000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.730000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.130000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.940000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.530000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.280000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.650000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.620000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 21.160000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.330000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.030000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.450000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.220000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.030000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.230000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 9.250000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.050000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.020000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.180000ms
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] Path base/images/favicon-busy-1.ico served from /Users/robynmarowitz/miniconda3/envs/earth-analytics-python/lib/python3.8/site-packages/notebook/static/base/images/favicon-busy-1.ico
+[NotebookApp | DEBUG] 200 GET /static/base/images/favicon-busy-1.ico (::1) 1.040000ms
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: stream
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 20.140000ms
+[NotebookApp | DEBUG] 200 GET /api/contents/07-open-hdf4-python-blank-filled.ipynb?content=0&_=1681503488525 (::1) 1.750000ms
+[NotebookApp | INFO] Saving file at /07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | DEBUG] Saving /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks/07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | WARNING] Notebook 07-open-hdf4-python-blank-filled.ipynb is not trusted
+[NotebookApp | DEBUG] 200 PUT /api/contents/07-open-hdf4-python-blank-filled.ipynb (::1) 38.590000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 6.900000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 4.820000ms
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: stream
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.910000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 5.590000ms
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: stream
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_result
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.490000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.290000ms
+[NotebookApp | DEBUG] 200 GET /api/contents/07-open-hdf4-python-blank-filled.ipynb?content=0&_=1681503488526 (::1) 18.150000ms
+[NotebookApp | INFO] Saving file at /07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | DEBUG] Saving /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks/07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | WARNING] Notebook 07-open-hdf4-python-blank-filled.ipynb is not trusted
+[NotebookApp | DEBUG] 200 PUT /api/contents/07-open-hdf4-python-blank-filled.ipynb (::1) 34.410000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 11.680000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.090000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 10.780000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 9.830000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.760000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 16.010000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.960000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.090000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.270000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 15.160000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 11.120000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 24.750000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 17.510000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.960000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.960000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.610000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.330000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.430000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.850000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.880000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.760000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.370000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.780000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.340000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 9.240000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 14.780000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.480000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.200000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.260000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.190000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.710000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.770000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.560000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.620000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.880000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.200000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.220000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.730000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.370000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.930000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 18.310000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.770000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.520000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.340000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.870000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.920000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.850000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.780000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.150000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.360000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.370000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.530000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 19.130000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.340000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.330000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.760000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.890000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.800000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.230000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.210000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.320000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.850000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.570000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.060000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 23.080000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.860000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.230000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 16.690000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.480000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.830000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.510000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.120000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.770000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.040000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.480000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.900000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.920000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.060000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.060000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.320000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.370000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.320000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 15.330000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.500000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.170000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.760000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.200000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.090000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.900000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.810000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 10.090000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 16.210000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.700000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.140000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.610000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.610000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.840000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.010000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.780000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.210000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 17.060000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 17.410000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.520000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.760000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 8.010000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 14.350000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.610000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.870000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.310000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.470000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.820000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 9.520000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 12.460000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 13.340000ms
+[NotebookApp | DEBUG] 200 GET /api/sessions?_=1681503485473 (::1) 5.280000ms
+[NotebookApp | DEBUG] 200 GET /api/terminals?_=1681503485474 (::1) 1.920000ms
+[NotebookApp | DEBUG] 200 GET /api/contents?type=directory&_=1681503485475 (::1) 10.500000ms
+[NotebookApp | DEBUG] 200 GET /api/sessions?_=1681503485476 (::1) 1.610000ms
+[NotebookApp | DEBUG] 200 GET /api/terminals?_=1681503485477 (::1) 2.220000ms
+[NotebookApp | DEBUG] 200 GET /api/contents?type=directory&_=1681503485478 (::1) 7.900000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 7.450000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.200000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 9.530000ms
+[NotebookApp | DEBUG] 304 GET /api/metrics/v1 (::1) 11.910000ms
+[NotebookApp | DEBUG] Websocket closed 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | INFO] Starting buffering for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Clearing buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Initializing websocket connection /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] 101 GET /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels?session_id=edd9e4f43e0c4bb98d40e4e1be89cfc5 (::1) 10.910000ms
+[NotebookApp | DEBUG] Opening websocket /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] Getting buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | INFO] Restoring connection for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Nudge: attempt 1 on kernel 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: IOPub received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving iopub future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] Nudge: control info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving control future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] Nudge: shell info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] Websocket closed 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | INFO] Starting buffering for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Clearing buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Initializing websocket connection /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] 101 GET /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels?session_id=edd9e4f43e0c4bb98d40e4e1be89cfc5 (::1) 13.080000ms
+[NotebookApp | DEBUG] Opening websocket /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] Getting buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | INFO] Restoring connection for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Nudge: attempt 1 on kernel 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: IOPub received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving iopub future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] Nudge: shell info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving shell future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] Nudge: control info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] Websocket closed 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | INFO] Starting buffering for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Clearing buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Initializing websocket connection /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] 101 GET /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels?session_id=edd9e4f43e0c4bb98d40e4e1be89cfc5 (::1) 5.390000ms
+[NotebookApp | DEBUG] Opening websocket /api/kernels/325b6497-2402-48a4-8a82-cd6605f5697b/channels
+[NotebookApp | DEBUG] Getting buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | INFO] Restoring connection for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65365
+[NotebookApp | DEBUG] Connecting to: tcp://127.0.0.1:65369
+[NotebookApp | DEBUG] Nudge: attempt 1 on kernel 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: IOPub received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving iopub future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] Nudge: shell info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] Nudge: resolving shell future: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] Nudge: control info reply received: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (busy)
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: execute_input
+[NotebookApp | DEBUG] activity on 325b6497-2402-48a4-8a82-cd6605f5697b: status (idle)
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 12.750000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 7.720000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 13.220000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 10.310000ms
+[NotebookApp | DEBUG] 200 GET /api/metrics/v1 (::1) 10.130000ms
+[NotebookApp | DEBUG] 200 GET /api/contents/07-open-hdf4-python-blank-filled.ipynb?content=0&_=1681503488527 (::1) 6.760000ms
+[NotebookApp | INFO] Saving file at /07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | DEBUG] Saving /Users/robynmarowitz/earth-analytics/ea-course-notebooks/eapython/in-class-notebooks/07-open-hdf4-python-blank-filled.ipynb
+[NotebookApp | WARNING] Notebook 07-open-hdf4-python-blank-filled.ipynb is not trusted
+[NotebookApp | DEBUG] 200 PUT /api/contents/07-open-hdf4-python-blank-filled.ipynb (::1) 42.670000ms
+[NotebookApp | DEBUG] 201 POST /api/contents/07-open-hdf4-python-blank-filled.ipynb/checkpoints (::1) 2.300000ms
+[NotebookApp | DEBUG] Websocket closed 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | INFO] Starting buffering for 325b6497-2402-48a4-8a82-cd6605f5697b:edd9e4f43e0c4bb98d40e4e1be89cfc5
+[NotebookApp | DEBUG] Clearing buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | DEBUG] 200 GET /api/sessions?_=1681503485479 (::1) 2.270000ms
+[NotebookApp | DEBUG] 200 GET /api/terminals?_=1681503485480 (::1) 0.900000ms
+[NotebookApp | DEBUG] 200 GET /api/contents?type=directory&_=1681503485481 (::1) 7.300000ms
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | DEBUG] Clearing buffer for 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | INFO] Kernel shutdown: 325b6497-2402-48a4-8a82-cd6605f5697b
+[NotebookApp | INFO] Shutting down 0 terminals
